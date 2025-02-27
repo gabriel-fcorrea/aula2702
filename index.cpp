@@ -7,11 +7,12 @@ int main ()
 	int a;
 	int b; 
 	int c;
+	int result;
 
-	cout << "Digite um numero abaixo: \n";
+	cout << "Digite tres numeros abaixo: \n";
 	cin >> a;
-	cout << "Digite outro numero abaixo: \n";
 	cin >> b;
-	c = a + b;
-	cout << "O resultado e... " << c;
+	cin >> c;
+	result = a * b *c;
+	cout << "O resultado e... " << result;
 }
