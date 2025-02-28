@@ -4,15 +4,14 @@ using namespace std;
 int main ()
 {
 
-	int a;
-	int b; 
-	int c;
-	int result;
+	int a = 1;
+	int b = 10; 
+	int c = 6;
 
-	cout << "Digite tres numeros abaixo: \n";
-	cin >> a;
-	cin >> b;
-	cin >> c;
-	result = a * b *c;
-	cout << "O resultado e... " << result;
+	for (a = 1; a <= b; a++){
+		
+		if (a != c){
+		cout << a << "\n";
+		}
+	}
 }
