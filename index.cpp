@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
+#define PI 3.14
 
 int main ()
 {
 
-	float PI = 3.14;
 	float raio;
 	float perimetro;
 	float area;
