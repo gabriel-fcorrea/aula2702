@@ -4,14 +4,28 @@ using namespace std;
 int main ()
 {
 
-	int a = 1;
-	int b = 10; 
-	int c = 6;
+	int a;
+	int b;
 
-	for (a = 1; a <= b; a++){
-		
-		if (a != c){
-		cout << a << "\n";
-		}
+	cout << "Digite um numero de 1 a 10 \n";
+	cin >> a;
+	cout << "Digite outro numero de 1 a 10 \n";
+	cin >> b;
+	if (a%2 == 0)
+	{
+		cout << "O primeiro numero e par \n";
 	}
+	else
+	{
+		cout << "O primeiro numero e impar \n";
+	}
+		if (b%2 == 0)
+	{
+		cout << "O segundo numero e par \n";
+	}
+	else
+	{
+		cout << "O segundo numero e impar \n";
+	}
+	
 }
